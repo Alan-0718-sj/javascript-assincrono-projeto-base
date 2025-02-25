@@ -1,44 +1,49 @@
-# CodeConnect
+# Projeto de Criptografia de Arquivos
 
-Uma plataforma para compartilhar projetos de desenvolvimento com a comunidade.
+Este projeto é um sistema de criptografia de arquivos que permite a segurança de documentos sensíveis por meio de técnicas avançadas de codificação. Ele suporta criptografia e descriptografia de arquivos usando a biblioteca `cryptography` em Python.
 
-![Preview](./img/imagem1.png)
+## 📌 Funcionalidades
 
-## 📋 Descrição
-
-O CodeConnect é uma aplicação web que permite aos desenvolvedores publicar e compartilhar seus projetos. Oferece funcionalidades como upload de imagens, gestão de tags e publicação de projetos com detalhamento técnico.
-
-## ✨ Funcionalidades Principais
-
-- **Upload de Imagem com Preview**
-  - Carregamento de imagens locais
-  - Visualização instantânea
-  - Exibição do nome do arquivo
-
-- **Sistema de Tags Dinâmico**
-  - Adição de tags com autocomplete simulado
-  - Validação de tags disponíveis
-  - Remoção individual de tags
-
-- **Publicação de Projetos**
-  - Formulário com validação
-  - Simulação de API para publicação
-  - Reset completo do formulário
-
-- **Design Responsivo**
-  - Layout adaptável
-  - Navegação lateral fixa
-  - Palette de cores customizáveis via CSS Variables
+- 🔒 **Criptografar arquivos**: Proteja seus arquivos convertendo-os em formato seguro.
+- 🔓 **Descriptografar arquivos**: Recupere arquivos criptografados para seu formato original.
+- 📁 **Selecionar arquivos e pastas**: Interface para escolher arquivos e diretórios para criptografia.
+- 🔑 **Gerar e usar chaves seguras**: Utilização de chaves RSA e AES para proteção avançada.
+- 🖥 **Interface gráfica**: Facilidade de uso com `tkinter`.
 
 ## 🛠 Tecnologias Utilizadas
 
-- **Frontend**
-  - HTML5 Semântico
-  - CSS3 com Variáveis Customizadas
-  - JavaScript Vanilla (ES6+)
+- Python 3.x
+- cryptography
+- tkinter
+- os
 
-## 🚀 Como Executar
+## 📥 Instalação
 
-1. Clone o repositório:
-```bash
-git clone [https://github.com/Alan-0718-sj/javascript-assincrono-projeto-base/tree/main]
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd seu-repositorio
+   ```
+3. Instale as dependências:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+## 🚀 Como Usar
+
+1. Execute o script principal:
+   ```sh
+   python main.py
+   ```
+2. Escolha as opções desejadas na interface gráfica.
+3. Selecione arquivos e inicie o processo de criptografia ou descriptografia.
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para usá-lo e modificá-lo conforme necessário.
+
+---
+Criado por https://github.com/Alan-0718-sj/javascript-assincrono-projeto-base/tree/main 😊
